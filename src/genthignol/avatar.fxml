@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="242.0" prefWidth="302.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="exercise1_javafx.AuthentificationController">
+   <bottom>
+      <Slider BorderPane.alignment="CENTER" />
+   </bottom>
+   <right>
+      <ComboBox prefWidth="150.0" BorderPane.alignment="CENTER" />
+   </right>
+   <center>
+      <Canvas height="200.0" width="200.0" BorderPane.alignment="CENTER" />
+   </center>
+   <top>
+      <Label text="Gestion de l'avatar" BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>
